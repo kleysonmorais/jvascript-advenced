@@ -1,0 +1,30 @@
+{
+  "name": "JSExpert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node ./seed",
+    "test": "npx mocha -w --parallel \"./{,!(node_modules)/**/}*.test.js\"",
+    "test:cov": "npx nyc npx mocha \"./{,!(node_modules)/**/}*.test.js\"",
+    "test:cov2": "npx nyc mocha --no-parallel \"./{,!(node_modules)/**/}*.test.js\" --exit --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleysonmorais/jvascript-advenced.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleysonmorais/jvascript-advenced/issues"
+  },
+  "homepage": "https://github.com/kleysonmorais/jvascript-advenced#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "faker": "^5.5.3",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}

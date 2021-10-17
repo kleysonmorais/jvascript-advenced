@@ -1,0 +1,24 @@
+{
+  "name": "JSExpert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleysonmorais/jvascript-advenced.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleysonmorais/jvascript-advenced/issues"
+  },
+  "homepage": "https://github.com/kleysonmorais/jvascript-advenced#readme",
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
